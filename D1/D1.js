@@ -55,8 +55,8 @@ console.log("myName", myName);
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
-x -= 4;
-console.log("x-4", x);
+let sum = 4 - x;
+console.log("x-4", sum);
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -66,4 +66,4 @@ console.log("x-4", x);
 
 let name1 = "john";
 let name2 = "John";
-console.log("difference between name1 and name2", name1 !== name2);
+console.log("The difference between name1 and name2 is", name1 !== name2);
