@@ -66,4 +66,11 @@ console.log("x-4", sum);
 
 let name1 = "john";
 let name2 = "John";
-console.log("The difference between name1 and name2 is", name1 !== name2);
+// console.log("The difference between name1 and name2 is", name1 !== name2);
+
+let isTheSameName = name1 === name2 ? true : false;
+console.log("is the same name", isTheSameName);
+
+let isTheSameNameIf =
+  name1.toLowerCase() === name2.toLowerCase() ? true : false;
+console.log("is the same name if", isTheSameNameIf);
